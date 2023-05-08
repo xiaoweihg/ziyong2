@@ -17,7 +17,7 @@ import json
 这样下来一直用积分续费，想提现的话6万积分起提现...绑定支付宝提现（稳到）。
 签到白嫖游戏服务器或者稳定的虚拟主机（2018年以来一直稳定运行的）
 雨云注册地址：
-https://www.rainyun.cc/?ref=rain
+https://www.rainyun.com/?ref=rain
 
 
 
@@ -28,7 +28,7 @@ https://www.rainyun.cc/?ref=rain
 
 
 注册地址：
-https://www.rainyun.cc/?ref=rain
+https://www.rainyun.com/?ref=rain
 
 '''
 # 忽略 不验证ssl的提示
@@ -62,10 +62,10 @@ class RainYun():
             "Origin": "https://api.rainyun.cc",
             "Referer": "https://api.rainyun.cc"
         })
-        self.login_url = "https://api.v2.rainyun.cc:36688/user/login"
-        self.signin_url = "https://api.v2.rainyun.cc:36688/user/reward/tasks"
-        self.logout_url = "https://api.v2.rainyun.cc:36688/user/logout"
-        self.query_url = "https://api.v2.rainyun.cc:36688/user/"
+        self.login_url = "https://api.v2.rainyun.com:36688/user/login"
+        self.signin_url = "https://api.v2.rainyun.com:36688/user/reward/tasks"
+        self.logout_url = "https://api.v2.rainyun.com:36688/user/logout"
+        self.query_url = "https://api.v2.rainyun.com:36688/user/"
         # 忽略 .cc ssl错误
         self.session.verify = False
 
